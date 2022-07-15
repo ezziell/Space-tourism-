@@ -1,0 +1,171 @@
+@import 'vars';
+
+@media (min-width: 276px) {
+    .bar-container {
+        position: absolute;
+        display: flex;
+    }
+    .logoBar {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 24px;
+        top: 24px;
+    }
+    .liName {
+        display: none;
+    }
+    .hrBar {
+        opacity: 0%;
+    }
+    .ulBar {
+        display: none;
+        position: absolute;
+    }
+    .logoLine {
+        position: relative;
+        width: 24px;
+        height: 21px;
+        margin-left: 288px;
+        top: 33px;
+    }
+}
+
+@media(min-width: 377px){
+    .logoLine{
+        margin-left: 394px;
+    }
+}
+
+@media(min-width: 500px){
+    .logoBar {
+        width: 48px;
+        height: 48px;
+        left: 30px;
+        top: 24px;
+    }
+    .logoLine{
+        display: none;
+    }
+    .ulBar {
+        position: absolute;
+        min-width: 252px;
+        max-width: 450px;
+        height: 96px;
+        margin-left: 78px;
+        top: 0px;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+        display: flex;
+        padding-left: 32px;
+    }
+    .liName {
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+        padding-top: 39px;
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        letter-spacing: 2.7px;
+        display: inline-block;
+        color: #FFFFFF;
+        margin-right: 32px;
+        cursor: pointer;
+    }
+    .liNumber{
+        display: none;
+    }
+}
+
+@media (min-width: 613px){
+    .logoBar {
+            width: 48px;
+            height: 48px;
+            left: 39px;
+            top: 24px;
+        }
+        .logoLine{
+            display: none;
+        }
+        .ulBar {
+            position: absolute;
+            max-width: 450px;
+            height: 96px;
+            margin-left: 188px;
+            top: 0px;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(81.5485px);
+            display: flex;
+            padding-left: 32px;
+        }
+        .liName {
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 17px;
+            letter-spacing: 2.3625px;
+            padding-top: 39px;
+            font-family: 'Barlow Condensed';
+            font-style: normal;
+            letter-spacing: 2.7px;
+            display: inline-block;
+            color: #FFFFFF;
+            margin-right: 37px;
+            cursor: pointer;
+        }
+        .liNumber{
+            display: none;
+        }
+}
+
+@media (min-width: 1324px){
+    .logoBar {
+        position: absolute;
+        left: 55px;
+        top: 58px;
+    }
+    .hrBar {
+        display: unset;
+        width: 473px;
+        height: 1px;
+        left: 167px;
+        top: 88px;
+        position: absolute;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        z-index: 2;
+    }
+    .ulBar {
+        position: absolute;
+        width: 51.875rem;
+        height: 96px;
+        max-width: unset;
+        left: 448px;
+        top: 40px;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+        padding-left: 139px;
+    }
+    .liName {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        position: relative;
+        bottom: 38px;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        color: #FFFFFF;
+        margin-right: 48px;
+        cursor: pointer;
+        top: 1px;
+    }
+    .liNumber{
+        font-weight: 700;
+        margin-right: 0.75rem;
+        margin-top: 39px;
+        display: unset;
+    }
+    }
+    
